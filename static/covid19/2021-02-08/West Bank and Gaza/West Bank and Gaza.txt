@@ -1,0 +1,7 @@
+Latest number of confirmed cases in West Bank and Gaza is ** 163213 ** as of 2021-02-08 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in West Bank and Gaza
+9.451982374363961e-08
+9
+Predicted confirmed cases in 7 days is 166884 in West Bank and Gaza
+Latest number of deaths in West Bank and Gaza is ** 1888 ** as of 2021-02-08 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in West Bank and Gaza

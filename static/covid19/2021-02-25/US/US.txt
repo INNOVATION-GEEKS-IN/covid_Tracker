@@ -1,0 +1,7 @@
+Latest number of confirmed cases in US is ** 28413388 ** as of 2021-02-25 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in US
+3.1867341426369584e-09
+4
+Predicted confirmed cases in 7 days is 28935233 in US
+Latest number of deaths in US is ** 508307 ** as of 2021-02-25 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in US

@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Afghanistan is ** 55575 ** as of 2021-02-19 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Afghanistan
+4.158010498928966e-09
+7
+Predicted confirmed cases in 7 days is 55693 in Afghanistan
+Latest number of deaths in Afghanistan is ** 2430 ** as of 2021-02-19 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Afghanistan

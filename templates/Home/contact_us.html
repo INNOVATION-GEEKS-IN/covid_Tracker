@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>INNOVATION-GEEKS | Contact us </title>
+  <link rel="stylesheet" href={% static 'Home\dist\style.css' %}>
+  <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section>
+  <div class="container">
+    <form action="#" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+<!-- partial -->
+  <script  src={% static 'Home\dist\script.js' %}  ></script>
+
+</body>
+</html>

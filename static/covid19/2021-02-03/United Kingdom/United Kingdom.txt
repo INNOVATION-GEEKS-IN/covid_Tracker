@@ -1,0 +1,7 @@
+Latest number of confirmed cases in United Kingdom is <b>3882972 </b> as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in United Kingdom
+1.481585046143311e-08
+4
+Predicted confirmed cases in 7 days is 4012966 in United Kingdom
+Latest number of deaths in United Kingdom is <b>109547</b> as of 2021-02-03 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.1 in United Kingdom

@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Serbia is "<b>"400837"</b>" as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Serbia
+1.800194968446913e-07
+9
+Predicted confirmed cases in 7 days is 412742 in Serbia
+Latest number of deaths in Serbia is "<b>"4071"</b>" as of 2021-02-03 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Serbia

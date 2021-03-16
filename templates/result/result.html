@@ -1,0 +1,86 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href={% static 'Home/img/logo/favicon.png' %}>
+    <link rel="stylesheet" href={% static '\Home\css\bootstrap.min.css' %}>
+    <link rel="stylesheet" href={% static 'Home\css\line-awesome.min.css' %}>
+    <link rel="stylesheet" href={% static 'Home\css\aos.css' %}>
+    <link rel="stylesheet" href={% static "Home\css\style.css" %}>
+    <link rel="stylesheet" href={% static "Home\css\custom.css" %}>
+
+    <title>Result</title>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src={% static "Home\img\logo\logo-white.png" %} width=125%   alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="las la-bars"></i>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" data-scroll><h4>Home</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/tacker/" data-scroll><h4>Covid Prediction</h4></a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/vaccination/0/" data-scroll><h4>Vaccination</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#transmission" data-scroll><h4>Spread</h4></a>
+                    </li>
+                </ul>
+                <div class="navbar-cta d-none d-lg-block">
+                    <a href="contact_us/" class="btn btn-primary" data-scroll>
+                        <i class="las la-headset"></i>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container" >
+        <h4 class="text-center" > {{confirmed_cases_number}} </h4> </br> 
+        <img class="img-thumbnail"  src="{% static img_1 %}" alt = "img">
+        
+        <h4 class="text-center" > {{confirmed_cases_factor}} </h4><br>
+        <h4 class="text-center" > {{r2}} </h4></br>
+        <h4 class="text-center" > {{days_back}} </h4></br>
+        <img class="img-thumbnail"  src="{% static img_2 %}" alt = "img"></br>
+
+        <h4 class="text-center" > {{confirmed_death_number}} </h4></br>
+        <img class="img-thumbnail"  src="{% static img_3 %}" alt = "img"> </br>
+
+        <img class="img-thumbnail"  src="{% static img_4 %}" alt = "img"> </br>
+
+        <h4 class="text-center" > {{confirmed_death_factor}} </h4></br>
+        <img class="img-thumbnail"  src="{% static img_5 %}" alt = "img"></br>
+    </div>
+
+    {% include 'footers/home-footer.html' %}
+
+</body>
+</html>

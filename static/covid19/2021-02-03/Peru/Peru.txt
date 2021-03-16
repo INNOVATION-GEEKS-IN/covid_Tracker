@@ -1,0 +1,6 @@
+Latest number of confirmed cases in Peru is "<b>"1158337"</b>" as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Peru
+1.0964028637174372e-05
+10
+Predicted confirmed cases in 7 days is 1206085 in Peru
+Latest number of deaths in Peru is "<b>"41538"</b>" as of 2021-02-03 00:00:00

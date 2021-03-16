@@ -1,0 +1,6 @@
+Latest number of confirmed cases in Albania is ** 86289 ** as of 2021-02-08 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.1 in Albania
+3.262057449556339e-07
+7
+Predicted confirmed cases in 7 days is 94526 in Albania
+Latest number of deaths in Albania is ** 1472 ** as of 2021-02-08 00:00:00

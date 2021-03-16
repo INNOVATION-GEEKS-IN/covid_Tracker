@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Ethiopia is ** 156112 ** as of 2021-02-25 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Ethiopia
+1.5353998698120425e-07
+10
+Predicted confirmed cases in 7 days is 162306 in Ethiopia
+Latest number of deaths in Ethiopia is ** 2321 ** as of 2021-02-25 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Ethiopia

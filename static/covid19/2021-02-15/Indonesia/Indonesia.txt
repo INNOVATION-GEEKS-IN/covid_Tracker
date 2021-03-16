@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Indonesia is ** 1223930 ** as of 2021-02-15 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.1 in Indonesia
+9.752458225659298e-07
+9
+Predicted confirmed cases in 7 days is 1289790 in Indonesia
+Latest number of deaths in Indonesia is ** 33367 ** as of 2021-02-15 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Indonesia

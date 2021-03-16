@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Russia is ** 4164802 ** as of 2021-02-25 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Russia
+2.261551400275326e-09
+4
+Predicted confirmed cases in 7 days is 4246873 in Russia
+Latest number of deaths in Russia is ** 83481 ** as of 2021-02-25 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Russia

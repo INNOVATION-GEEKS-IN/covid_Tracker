@@ -1,0 +1,7 @@
+Latest number of confirmed cases in New Zealand is ** 2371 ** as of 2021-02-25 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in New Zealand
+3.960322848282653e-07
+10
+Predicted confirmed cases in 7 days is 2396 in New Zealand
+Latest number of deaths in New Zealand is ** 26 ** as of 2021-02-25 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in New Zealand

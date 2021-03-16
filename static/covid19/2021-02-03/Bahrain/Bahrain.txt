@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Bahrain is <b>104792</b> as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Bahrain
+2.547267612804644e-07
+7
+Predicted confirmed cases in 7 days is 108672 in Bahrain
+Latest number of deaths in Bahrain is <b>376</b> as of 2021-02-03 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Bahrain

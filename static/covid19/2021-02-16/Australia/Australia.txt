@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Australia is ** 28911 ** as of 2021-02-16 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Australia
+9.472608742367126e-10
+6
+Predicted confirmed cases in 7 days is 28943 in Australia
+Latest number of deaths in Australia is ** 909 ** as of 2021-02-16 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Australia

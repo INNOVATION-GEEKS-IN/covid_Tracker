@@ -1,0 +1,10 @@
+django
+pandas
+matplotlib
+numpy
+django-filter
+python3 -m pip install pymysql
+django-bootstap-form
+djangorestframework
+django-rest-knox
+django-leads

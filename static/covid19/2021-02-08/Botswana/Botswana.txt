@@ -1,0 +1,6 @@
+Latest number of confirmed cases in Botswana is ** 24435 ** as of 2021-02-08 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.1 in Botswana
+0.00011774693955852028
+8
+Predicted confirmed cases in 7 days is 25395 in Botswana
+Latest number of deaths in Botswana is ** 179 ** as of 2021-02-08 00:00:00

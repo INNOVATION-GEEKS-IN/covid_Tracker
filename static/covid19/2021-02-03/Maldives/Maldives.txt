@@ -1,0 +1,6 @@
+Latest number of confirmed cases in Maldives is "<b>"16276"</b>" as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.1 in Maldives
+2.0537351003035277e-06
+10
+Predicted confirmed cases in 7 days is 17272 in Maldives
+Latest number of deaths in Maldives is "<b>"53"</b>" as of 2021-02-03 00:00:00

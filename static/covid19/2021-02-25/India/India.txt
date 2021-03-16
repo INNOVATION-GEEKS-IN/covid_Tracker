@@ -1,0 +1,7 @@
+Latest number of confirmed cases in India is ** 11063491 ** as of 2021-02-25 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in India
+2.2513307004669044e-08
+10
+Predicted confirmed cases in 7 days is 11156481 in India
+Latest number of deaths in India is ** 156825 ** as of 2021-02-25 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in India

@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Bahamas is ** 8289 ** as of 2021-02-08 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Bahamas
+2.170660858921448e-06
+10
+Predicted confirmed cases in 7 days is 8372 in Bahamas
+Latest number of deaths in Bahamas is ** 176 ** as of 2021-02-08 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Bahamas

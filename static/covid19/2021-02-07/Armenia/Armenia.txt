@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Armenia is ** 168088 ** as of 2021-02-07 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Armenia
+9.24422650959447e-09
+7
+Predicted confirmed cases in 7 days is 169246 in Armenia
+Latest number of deaths in Armenia is ** 3117 ** as of 2021-02-07 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Armenia

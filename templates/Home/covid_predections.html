@@ -1,0 +1,97 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+    <title>Tracker</title>
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+
+    <link rel="stylesheet" href={% static 'CSS/style.css'  %}>
+    <link rel="stylesheet" href={% static 'Home\css\bootstrap.min.css' %}>
+    <link rel="stylesheet" href={% static 'Home\css\line-awesome.min.css' %}>
+    <link rel="stylesheet" href={% static 'Home\css\aos.css' %}>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark  ">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src={% static "Home\img\logo\logo-white.png" %} alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="las la-bars"></i>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/" data-scroll><h4>Home</h4></a>
+                        </li>
+                        <li class="nav-item active ">
+                             <a class="nav-link" href="/tacker/" data-scroll><h4>Covid Prediction</h4></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/vaccination/0/" data-scroll><h4>Vaccination</h4></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#transmission" data-scroll><h4>Spread</h4></a>
+                        </li>
+                      
+                       
+                    </ul>
+                    <div class="navbar-cta d-none d-lg-block">
+                        <a href="contact_us/" class="btn btn-primary" data-scroll>
+                            <i class="las la-headset"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid">
+        
+            <form class="big-title " action="/predict-Country/" method="get">
+                <label class="text-white" for="country" style="font-family: 'Times New Roman', 'Times', 'serif';" >Select Country</label> </br></br>
+                <input lass="form-control" list="countries"  name="country" id="country"> 
+                <input class="btn btn-success" type="submit" value="Predict" style="font-size: 34px;"  >
+            </form>
+            
+                
+            <datalist id="countries">
+            {% for country in countries_list %}
+                <option value="{{country}}"></option>
+            {% endfor %}     
+            </datalist> 
+
+    <!-- END HERE-->
+
+            <img src="{% static 'IMAGES/person.png' %}"  class="person translate" data-speed="-0.25" alt="person">
+            <img src="{% static 'IMAGES/mountain1.png' %}" class="mountain1 translate" data-speed="-0.2" alt="mountain1">
+            <img src="{% static 'IMAGES/mountain2.png' %}" class="mountain2 translate" data-speed="0.4" alt="mountain2">
+            <img src="{% static 'IMAGES/mountain3.png' %}" class="mountain3 translate" data-speed="0.3" alt="mountain3">
+            <img src="{% static 'IMAGES/sky.png' %}" class="sky translate" data-speed="0.5" alt="sky">
+        </header>
+
+        <section>
+            <div class="shadow"></div>
+
+        
+
+                <div class="imgContainer opacity">
+                    <img src="{% static 'IMAGES/image.jpg' %}" alt="">
+                </div>
+
+
+            </div>
+        </section>
+</div>
+    {% include 'footers/home-footer.html' %}
+
+    <script src={% static 'JS/app.js' %}></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Suriname is "<b>"8556"</b>" as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Suriname
+4.5867370758284876e-06
+8
+Predicted confirmed cases in 7 days is 8887 in Suriname
+Latest number of deaths in Suriname is "<b>"156"</b>" as of 2021-02-03 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Suriname

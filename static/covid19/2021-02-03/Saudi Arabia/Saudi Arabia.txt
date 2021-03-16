@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Saudi Arabia is "<b>"368945"</b>" as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Saudi Arabia
+3.929175892429511e-09
+8
+Predicted confirmed cases in 7 days is 370789 in Saudi Arabia
+Latest number of deaths in Saudi Arabia is "<b>"6386"</b>" as of 2021-02-03 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Saudi Arabia

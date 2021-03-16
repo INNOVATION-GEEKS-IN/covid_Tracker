@@ -1,0 +1,215 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Template meta tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+
+    <!-- Title -->
+    <title>Covid-19 (INNOVATION GEEKS)</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href={% static '\Home\css\bootstrap.min.css' %}>
+
+    <!-- Icon Font -->
+    <link rel="stylesheet" href={% static 'Home\css\line-awesome.min.css' %}>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href={% static 'Home\css\aos.css' %}>
+
+    <!-- DataTable -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/v/bs4/dt-1.10.21/fh-3.1.7/r-2.2.4/sc-2.0.2/datatables.min.css" />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href={% static "Home\css\style.css" %}>
+
+    <!-- Custom CSS for end users -->
+    <link rel="stylesheet" href={% static "Home\css\custom.css" %}>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader-wrapper">
+        <div class="preloader-wave-effect"></div>
+        <div class="preloader-text">Loading</div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src={% static "Home\img\logo\logo-white.png" %} alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="las la-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/" data-scroll>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tacker/" data-scroll>Covid Prediction</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/vaccination/1/" data-scroll>Vaccination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#transmission" data-scroll>Spread</a>
+                    </li>
+                </ul>
+                <div class="navbar-cta d-none d-lg-block">
+                    <a href="contact_us/" class="btn btn-primary" data-scroll>
+                        <i class="las la-headset"></i>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-section pt-lg pb-0 s-bg-light">
+        <div class="container">
+            <div class="page-header text-center py-md">
+                <h1>COVID 19 UPDATES</h1>
+            </div>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Outbreak News</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Corona news -->
+    <section class="corona-updates-section style-2 mt-0 py-lg">
+        <div class="container">
+            <div class="corona-updates-inner">
+                <div class="section-header text-center mb-4 mb-md-5">
+                    <h2 class="mb-1">Covid-19 Coronavirus Pandemic</h2>
+                    <p class="update-date"><em><span>Live</span> - Updates on every 10 minutes</em></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 statistics-card card-info" data-aos="fade-up">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="totalCases"></h3>
+                            <p>Total cases</p>
+                            <img src={% static "Home\img\shapes\1.png" %} alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 statistics-card card-danger" data-aos="fade-up" data-aos-delay="50">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="totalDeaths"></h3>
+                            <p>Total deaths</p>
+                            <img src={% static "Home\img\shapes\1.png" %} alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 statistics-card card-success" data-aos="fade-up" data-aos-delay="100">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="totalRecovered"></h3>
+                            <p>Total recovered</p>
+                            <img src={% static "Home\img\shapes\1.png" %} alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 statistics-card card-warning" data-aos="fade-up" data-aos-delay="150">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="newCases"></h3>
+                            <p>New cases</p>
+                            <img src={% static "Home\img\shapes\1.png" %} alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corona country statistics -->
+    <section class="corona-country-stats-section pb-lg">
+        <div class="container">
+            <div class="section-header text-center mb-4 mb-md-5">
+                <h2 class="heading">Coronavirus Live Statistics</h2>
+            </div>
+            <table id="countries_stat" class="table table-striped table-hover country-stats-table">
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Total Cases</th>
+                        <th>Total Deaths</th>
+                        <th>Total Recovered</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+
+    <!-- Corona map -->
+    <div class="corona-map-section mt-0 pb-lg">
+        <div class="container">
+            <div class="corona-map">
+<!--            https://coronavirus.app/map?embed=true-->
+<iframe style="width:100%"; width="560" height="380" src="https://coronavirus.app/tracking/india?embed=true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+        </div>
+    </div>
+
+    {% include 'footers/home-footer.html' %}
+
+    <!-- jQuery first, then Bootstrap bundle JS, then others -->
+    <script src={% static "Home/js/jquery-3.5.1.min.js" %}></script>
+    <script src={% static "Home/js/bootstrap.bundle.min.js" %}></script>
+
+    <!-- Plugins -->
+    <script src={% static "Home/js/jquery-ui.min.js" %}></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src={% static "Home/js/corona-script.js" %}></script>
+    <script src={% static "Home/js/aos.js" %}></script>
+    <script src={% static "Home/js/simpleParallax.min.js" %}></script>
+    <script src={% static "Home/js/parallax.min.js" %}></script>
+    <script type="text/javascript"
+        src="https://cdn.datatables.net/v/bs4/dt-1.10.21/fh-3.1.7/r-2.2.4/sc-2.0.2/datatables.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhrdEzlfpnsnfq4MgU1e1CCsrvVx2d59s"></script>
+    <script src={% static "Home/js/gmaps.js" %}></script>
+    <script src={% static "Home/js/ajax-mail.js" %}></script>
+    <script src={% static "Home/js/ajax-subscribe.js" %}></script>
+
+    <!-- Template JS -->
+    <script src={% static "Home/js/scripts.js"  %}></script>
+    <script>
+        function reload() {
+            document.getElementsByClassName("site-link")[0].style.display = "none";
+            document.getElementsByClassName("leaflet-control")[0].style.display = "none";
+            document.getElementsByClassName("leaflet-control")[1].style.display = "none";
+        }
+        
+    </script>
+</body>
+
+</html>
+<style>
+    .site-link {
+        display: none;
+    }
+
+</style>

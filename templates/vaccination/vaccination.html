@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination</title>
+
+    <link rel="icon" type="image/png" href={% static 'Home/img/logo/favicon.png' %}>
+    <link rel="stylesheet" href={% static '\Home\css\bootstrap.min.css' %}>
+    <link rel="stylesheet" href={% static 'Home\css\line-awesome.min.css' %}>
+    <link rel="stylesheet" href={% static "Home\css\style.css" %}>
+    <link rel="stylesheet" href={% static "Home\css\custom.css" %}>
+    <link rel="stylesheet" href={% static 'Home\css\aos.css' %}>
+
+<style> 
+    .scrollit {
+        overflow:scroll;
+        height:100px;
+        display: none;
+    }
+</style> 
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+    <body>
+         <!-- Navbar -->
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container" style="overflow-x:auto;" >
+                <a class="navbar-brand" href="">
+                    <img src={% static "Home\img\logo\logo-white.png" %} alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="las la-bars"></i>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/" data-scroll>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tacker/" data-scroll>Covid Prediction</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/vaccination/1/" data-scroll>Vaccination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#transmission" data-scroll>Spread</a>
+                        </li>
+                      
+                       
+                    </ul>
+                    <div class="navbar-cta d-none d-lg-block">
+                        <a href="contact_us/" class="btn btn-primary" data-scroll>
+                            <i class="las la-headset"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="container-fluid">
+          <div class="jumbotron" >
+            <h1 class="display-3 text-dark text-center ">Vaccination Table </h1>
+                    <table style="overflow-x: 10px ; overflow-y: 10px;" id="countries_stat" class="table table-striped table-hover country-stats-table">
+                        <thead>
+                            <tr>			  
+                                <th>#</th>		
+                                <th><a href="/vaccination/0/">Country Name</a></th>			  
+                                <th><a href="/vaccination/1/">Total Case</a></th>			  
+                                <th><a href="/vaccination/3/">New Cases</a></th>
+                                <th><a href="/vaccination/2/">Total Deaths</a></th>	
+                                <th><a href="/vaccination/4/">New Deaths</a></th>
+                                <th><a href="/vaccination/5/">Total Vaccinations</a></th>
+                                <th><a href="/vaccination/6/">New Vaccinations</a></th>
+                            </tr>	
+                            <tbody >			
+                                {% for item in info %}
+                                <tr>
+                                    <td>{{item.index}}</td>     
+                                    <td>{{item.Country}}</td>
+                                    <td>{{item.total_cases}}</td>
+                                    <td>{{item.new_cases}}</td>
+                                    <td>{{item.total_deaths}}</td>
+                                    <td>{{item.new_deaths}}</td>
+                                    <td>{{item.total_vaccinations}}</td>
+                                    <td>{{item.new_vaccinations}}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </thead>
+                    </table>
+                </div>
+            </section>
+
+          </p>
+          </div>
+        </div>
+
+        <div class="container" >
+            <div class="border border-success">
+            {% include 'index.html' %}
+            </div>
+        </div> </br></br>
+
+</body>
+</html>

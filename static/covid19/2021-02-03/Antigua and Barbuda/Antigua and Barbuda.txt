@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Antigua and Barbuda is "<b>"249"</b>" as of 2021-02-03 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.2 in Antigua and Barbuda
+0.000341424736625442
+10
+Predicted confirmed cases in 7 days is 293 in Antigua and Barbuda
+Latest number of deaths in Antigua and Barbuda is "<b>"7"</b>" as of 2021-02-03 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Antigua and Barbuda

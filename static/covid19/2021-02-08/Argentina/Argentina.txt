@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Argentina is ** 1985501 ** as of 2021-02-08 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Argentina
+1.4672628886600502e-06
+10
+Predicted confirmed cases in 7 days is 2042852 in Argentina
+Latest number of deaths in Argentina is ** 49398 ** as of 2021-02-08 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Argentina

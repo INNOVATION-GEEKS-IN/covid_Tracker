@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Estonia is ** 47928 ** as of 2021-02-07 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.1 in Estonia
+1.1216133437004289e-05
+10
+Predicted confirmed cases in 7 days is 51708 in Estonia
+Latest number of deaths in Estonia is ** 461 ** as of 2021-02-07 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.1 in Estonia

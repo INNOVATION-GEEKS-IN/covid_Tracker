@@ -1,0 +1,7 @@
+Latest number of confirmed cases in Austria is ** 423839 ** as of 2021-02-07 00:00:00
+Every week the number of confirmed cases increases roughly by a factor of 1.0 in Austria
+3.2976008237456386e-09
+4
+Predicted confirmed cases in 7 days is 433495 in Austria
+Latest number of deaths in Austria is ** 8012 ** as of 2021-02-07 00:00:00
+Every week the number of deaths increases roughly by a factor of 1.0 in Austria
