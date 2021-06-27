@@ -1,12 +1,10 @@
-# covid_Tracker
+# Covid_Tracker
 ![Banner](https://github.com/INNOVATION-GEEKS-IN/covid_Tracker/blob/main/171.png)
+![Banner](https://github.com/INNOVATION-GEEKS-IN/covid_Tracker/blob/main/1711.png)
+![Banner](https://github.com/INNOVATION-GEEKS-IN/covid_Tracker/blob/main/180.png)
 
 
-# SECE Chat 
 
-## Mini Project
+The Covid Statistics website created gets its information from World Health Organization, the Centers for Disease Control and other credible sources and displays it in the form of interactive maps, tables, graphs etc. The best part is the website updates around every 10 minutes so that it ensures that the data shown is accurate.
 
-There are numerous products available that allow real time chatting over internet. But many private organizations are facing privacy concerns while using third party apps. So develop a chatting app for private organizations.
-
-SECE Chat is a simple private chat app that I have created for my College.
-A private database will be provided to the organisation such that their data will not be prone to any third party.
+The Covid Statistics website also has a special feature called Covid prediction which uses SIER algorithmn to predict the future trend of Covid-19 in the selected country.
